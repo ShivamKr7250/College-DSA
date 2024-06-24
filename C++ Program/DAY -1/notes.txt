@@ -1,0 +1,83 @@
+5 data types in C++
+int 
+float
+char 
+
+1. Question 
+4bytes - 32bits
+
+-2power 31 to 2 power 31 - 1
+
+it happens due to the negative numbers store in 2s Complement
+
+
+non primitive 
+
+1. arrays 
+2. string
+
+arrays declartion 
+
+1. int[] array = new int[10];
+array = {1,2,3,4,5,6,7,8,9,0};
+
+2. int a[5];
+a[0] = {1};
+
+3. int a[] = {1,2,3,4,5};
+
+4. int a[5] = {1,2,3,4,5};
+
+pointers: pointers are the idetifiers that store the data of another identifier 
+
+datatype *op/r;
+double * dptr;
+
+int* + aptrptr;
+int* * a2ptr;
+int*** a3ptr;
+
+
+int* aptr;
+aptr = 8a;
+
+int** a2ptr;
+a2ptr = 8aptr;
+a2ptr= 5/a;
+
+cout<<a2ptr // 0x100
+cout<< *a2ptr
+
+cout<<aptr // 0x100
+cout<<(*aptr) // 100
+
+int a1[] = {1,2,3}
+int a2[] = {4,5}
+int a3[] = {6,7,8,9}
+
+pattern Question
+
+1
+01
+101
+0101
+10101
+
+1
+123
+12345
+1234567
+12345
+123
+1
+
+1
+121
+12321
+1234321
+12321
+121
+1
+
+
+//codeforce 937 div4

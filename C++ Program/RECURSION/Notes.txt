@@ -1,0 +1,13 @@
+Recursion is used for problem which can broken down into similar smaller sub problem
+In Recurive function their is two important part
+1. Recurise case 2. Base Case
+Static keyword is used to 
+
+Questions:
+sum of all digits of a number 
+fibonacci series
+tribonaacci
+N Stairs
+Bubble Sort Recursion
+Insertion Sort Recurise
+Binary Search
